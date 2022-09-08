@@ -1,0 +1,7 @@
+../Core/Src/bsp_glcd.c:20:6:GLCD_Init	8	static
+../Core/Src/bsp_glcd.c:38:6:GLCDEN	16	static
+../Core/Src/bsp_glcd.c:55:6:GLCD_Write	24	static
+../Core/Src/bsp_glcd.c:96:6:GLCD_Clear	16	static
+../Core/Src/bsp_glcd.c:114:6:GLCD_Write_Block	24	static
+../Core/Src/bsp_glcd.c:128:6:GLCD_WriteString	24	static
+../Core/Src/bsp_glcd.c:141:6:GLCD_Write_Char	24	static

@@ -1,0 +1,4 @@
+../Core/Src/log.c:25:6:Log_Init	8	static
+../Core/Src/log.c:31:6:Log_LogString	16	static
+../Core/Src/log.c:41:6:Log_LogStringAndHalStatus	288	static
+../Core/Src/log.c:58:6:Log_RepeatZoneData	48	static

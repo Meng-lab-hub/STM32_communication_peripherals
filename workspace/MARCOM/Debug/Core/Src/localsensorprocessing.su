@@ -1,0 +1,5 @@
+../Core/Src/localsensorprocessing.c:54:6:LocalSensorProcessing_Init	112	static
+../Core/Src/localsensorprocessing.c:72:6:LocalSensorProcessing_Go	112	static
+../Core/Src/localsensorprocessing.c:108:6:ToggleVirtualTestSwitch	4	static
+../Core/Src/localsensorprocessing.c:117:6:collectSensorData	112	static
+../Core/Src/localsensorprocessing.c:141:6:SetLocalZoneStatus	16	static

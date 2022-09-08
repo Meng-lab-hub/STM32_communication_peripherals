@@ -1,0 +1,2 @@
+../Core/Src/mainloop.c:24:6:MainLoop_Init	112	static
+../Core/Src/mainloop.c:51:6:MainLoop_Go	8	static

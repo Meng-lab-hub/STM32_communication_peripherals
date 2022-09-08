@@ -1,0 +1,6 @@
+../Core/Src/bsp_accelerometer.c:33:6:Accelerometer_Init	24	static
+../Core/Src/bsp_accelerometer.c:62:5:Accelerometer_GetTilt	40	static
+../Core/Src/bsp_accelerometer.c:94:6:LIS302DL_Init	24	static
+../Core/Src/bsp_accelerometer.c:108:6:LIS302DL_FilterConfig	24	static
+../Core/Src/bsp_accelerometer.c:129:6:LIS302DL_Write	16	static
+../Core/Src/bsp_accelerometer.c:149:6:LIS302DL_Read	24	static

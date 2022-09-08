@@ -1,0 +1,2 @@
+../Core/Src/bsp_uart.c:69:19:UART_Init	8	static
+../Core/Src/bsp_uart.c:101:19:UART_SendString	16	static

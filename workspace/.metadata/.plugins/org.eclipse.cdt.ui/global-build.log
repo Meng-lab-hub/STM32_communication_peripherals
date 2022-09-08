@@ -1,0 +1,14 @@
+04:42:49 **** Incremental Build of configuration Debug for project MARCOM ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/bsp_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/bsp_uart.d" -MT"Core/Src/bsp_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bsp_uart.o"
+arm-none-eabi-gcc -o "MARCOM.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\BME\semester6\microcontrollerLaboratory\M1\workspace\MARCOM\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MARCOM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MARCOM.elf
+ 
+arm-none-eabi-size   MARCOM.elf 
+arm-none-eabi-objdump -h -S  MARCOM.elf  > "MARCOM.list"
+   text	   data	    bss	    dec	    hex	filename
+  22764	    736	   1784	  25284	   62c4	MARCOM.elf
+Finished building: default.size.stdout
+ 
+Finished building: MARCOM.list
+ 

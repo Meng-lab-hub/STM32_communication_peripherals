@@ -1,0 +1,4 @@
+../Core/Src/bsp_buttonsswitches.c:18:6:ButtonsSwitches_Init	40	static
+../Core/Src/bsp_buttonsswitches.c:43:5:ButtonsSwitches_GetTestSwitchState	8	static
+../Core/Src/bsp_buttonsswitches.c:49:5:ButtonsSwitches_GetGraphicsModeSwitchState	8	static
+../Core/Src/bsp_buttonsswitches.c:55:9:ButtonsSwitches_GetLocalZoneID	16	static

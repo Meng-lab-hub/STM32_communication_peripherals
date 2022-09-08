@@ -1,0 +1,4 @@
+../Core/Src/bsp_can.c:53:19:CAN_Init	4	static
+../Core/Src/bsp_can.c:97:19:CAN_SendMessage	16	static
+../Core/Src/bsp_can.c:134:6:CAN_Go	16	static
+../Core/Src/bsp_can.c:154:6:ProcessReceivedCanMessage	16	static

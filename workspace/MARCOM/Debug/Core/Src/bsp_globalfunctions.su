@@ -1,0 +1,4 @@
+../Core/Src/bsp_globalfunctions.c:24:6:GlobalFunctions_Init	8	static
+../Core/Src/bsp_globalfunctions.c:33:6:Sys_DelayUs	16	static
+../Core/Src/bsp_globalfunctions.c:40:6:Sys_DelayMs	16	static
+../Core/Src/bsp_globalfunctions.c:48:6:HAL_TIM_PeriodElapsedCallback	16	static
